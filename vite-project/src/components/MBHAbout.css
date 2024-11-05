@@ -1,0 +1,72 @@
+/* src/MegaBoysHostelAbout.css */
+
+.mbh-about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 90vw;
+    margin: 5vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+ 
+  .text-content {
+    flex: 1;
+    margin-right: 20px;
+    
+  }
+  
+  .text-content h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    line-height: 0.5em;
+    
+  }
+ /* src/MegaBoysHostelAbout.css */
+
+.text-content .about {
+    color: rgb(160, 160, 160);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-content .about span {
+    margin-right: 5px; /* Space between the text and HR */
+  }
+  
+  .text-content .about hr {
+    border: 0;
+    height: 2px;
+    width:8em; /* Adjust width as needed */
+    background-color: rgb(255, 115, 0);
+    margin: 0;
+    opacity: 1;
+    margin-left: 10px; /* Space between the text and HR */
+  }
+  
+  
+  .text-content p {
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
