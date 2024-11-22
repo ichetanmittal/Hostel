@@ -23,7 +23,7 @@
   }
  
   .chief-warden-container .image-content img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

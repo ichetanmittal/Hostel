@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import './Carousel.css'; 
 import gsap from "gsap";
 
-const Carousel = () => {
+const Carousel = ({ images, title, subtitle }) => {
   useEffect(() => {
     const introline = document.querySelector(".hometext h1");
     const text = introline.textContent;
@@ -33,28 +33,15 @@ const Carousel = () => {
   return (
     <>
       <div className='hometext'>
-        <h1>WELCOME TO MEGA BOYS HOSTEL</h1>
-        <i>a home away from home</i>
+        <h1>{title}</h1>
+        <i>{subtitle}</i>
       </div>
       <Slider {...settings}>
-        <div className='slideimg'>
-          <img className="d-block w-100" src="./src/images/image1.jpg" alt="First slide" />
-        </div>
-        <div className='slideimg'>
-          <img className="d-block w-100" src="./src/images/image2.jpg" alt="Second slide" />
-        </div>
-        <div className='slideimg'>
-          <img className="d-block w-100" src="./src/images/image3.jpg" alt="Third slide" />
-        </div>
-        <div className='slideimg'>
-          <img className="d-block w-100" src="./src/images/image4.jpg" alt="Fourth slide" />
-        </div>
-        <div className='slideimg'>
-          <img className="d-block w-100" src="./src/images/image5.jpeg" alt="Fifth slide" />
-        </div>
-        <div className='slideimg'>
-          <img className="d-block w-100" src="./src/images/image6.jpg" alt="Sixth slide" />
-        </div>
+        {images.map((image, index) => (
+          <div className='slideimg' key={index}>
+            <img className="d-block w-100" src={image} alt={`Slide ${index + 1}`} />
+          </div>
+        ))}
       </Slider>
     </>
   );

@@ -1,0 +1,35 @@
+
+.hostel-names {
+    /* margin: 20px; */
+    padding-left: 80px;
+  }
+  
+  .hostel-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .mainDiv{
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  .hostel-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .arrow {
+    color: #1E90FF; /* The blue color for the arrow */
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .hostel-names{
+    padding: 1vw;
+  }
+  
