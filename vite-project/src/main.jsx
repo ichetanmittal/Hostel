@@ -6,6 +6,8 @@ import HostelContent from './components/HostelContent'; // Import hostel data
 import Hostel from './Hostel'; // Import the Hostel component
 import Facilities from './components/Facilities'; // Import the Facilities component
 import Homepage from './Homepage'; // Import the Homepage component
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (

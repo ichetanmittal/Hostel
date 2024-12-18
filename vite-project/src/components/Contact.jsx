@@ -1,5 +1,4 @@
 // src/Contact.js
-
 import React from 'react';
 import { useParams } from 'react-router-dom'; // To get the hostel from the URL
 import HostelContent from './HostelContent';
